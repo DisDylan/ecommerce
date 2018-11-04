@@ -1,0 +1,53 @@
+@media screen and (max-width: 480px) {
+
+  body {
+    font-size: 0.5em;
+  }
+
+  nav {
+    font-size: 0.5em;
+  }
+
+  nav ul:first-child {
+    display: none;
+  }
+
+  header div.container {
+    margin-top: -100px;
+  }
+
+  #bank, #bankReverse {
+    display: none;
+  }
+
+  .titre_produits {
+    flex-direction: column;
+  }
+
+  section.prod_content {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .prod {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  article.avantages {
+    flex-direction: column;
+  }
+
+  div.avtg {
+    width: 95%;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer .conditions {
+    line-height: 10px;
+  }
+
+}
